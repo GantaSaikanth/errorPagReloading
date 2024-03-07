@@ -85,7 +85,7 @@ class MoneyManager extends Component {
         <MoneyDetails />
         <div className="application-form">
           <h1 className="heads">Add Transaction</h1>
-          <form className={this.onSubmitForm}>
+          <form onSubmit={this.onSubmitForm}>
             <label className="label" htmlFor="title">
               TITLE
             </label>
